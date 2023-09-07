@@ -1,0 +1,50 @@
+{
+  "leftNavMenus": [
+    {
+      "iconImg": "/images/location-icon.svg",
+      "imgDesc": "location-icon",
+      "addressLine1": "г.Ташкент, Чиланзар",
+      "addressLine2": "10 квартал, дом 3/1"
+    },
+    {
+      "iconImg": "/images/phone-icon.svg",
+      "imgDesc": "phone-icon",
+      "addressLine1": "+998 71 276-62-53",
+      "addressLine2": "+998 71 276-62-54"
+    }
+  ],
+
+  "rightNavItems": [
+    {
+      "iconSrc": "/images/fc-logo.svg",
+      "alt": "fc-icon",
+      "iconName": "Мы на Facebook"
+    },
+    {
+      "iconSrc": "/images/russian-flag.svg",
+      "alt": "country-icon",
+      "iconName": "Русский"
+    }
+  ],
+
+  "headerMenus": [
+    {
+      "headerMenu": "МАГАЗИН"
+    },
+    {
+      "headerMenu": "О КОМПАНИИ"
+    },
+    {
+      "headerMenu": "ПРОДУКЦИЯ"
+    },
+    {
+      "headerMenu": "УСЛУГИ"
+    },
+    {
+      "headerMenu": "АКЦИИ И НОВОСТИ"
+    },
+    {
+      "headerMenu": "ОБРАТНАЯ СВЯЗЬ"
+    }
+  ]
+}
