@@ -5,6 +5,7 @@ import data from "../../../public/assets/data.json";
 
 import compLogo from "/public/images/company-logo.svg";
 import searchIcon from "/public/images/search-icon.svg";
+import HeroContent from "../HeroContent/HeroContent";
 
 export default function Hero() {
   const { leftNavMenus, rightNavItems, headerMenus } = data;
@@ -50,6 +51,8 @@ export default function Hero() {
           </ul>
         ))}
       </div>
+
+      <HeroContent />
     </div>
   );
 }

@@ -1,0 +1,41 @@
+.heroContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1360px;
+
+  .leftContent {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 50px;
+    max-width: 600px;
+
+    .contentTitle {
+      color: #0d4c93;
+      font-size: 50px;
+      font-weight: 500;
+      max-width: 350px;
+    }
+
+    .contentDesc {
+      color: #363535;
+      font-size: 20px;
+      line-height: 40px;
+      max-width: 450px;
+    }
+
+    .contentBtn {
+      border-radius: 35px;
+      width: 270px;
+      padding: 20px 30px;
+      opacity: 0.9;
+      background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+
+      span {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+      }
+    }
+  }
+}
