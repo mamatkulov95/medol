@@ -1,0 +1,38 @@
+.products {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 1145px;
+  margin: auto;
+  padding: 50px 0;
+
+  .productsList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    row-gap: 50px;
+    column-gap: 50px;
+
+    .product {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      border-radius: 35px;
+      opacity: 0.9;
+      background: linear-gradient(
+        180deg,
+        #f8f8f8 0%,
+        rgba(248, 248, 248, 0) 100%
+      );
+    }
+  }
+
+  .productCatalog {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+}
