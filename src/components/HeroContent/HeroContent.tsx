@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import styles from "./HeroContent.module.scss";
 import product1 from "/public/images/product1.svg";
+import Button from "../Button/Button";
 
 export default function HeroContent() {
   return (
@@ -14,9 +15,7 @@ export default function HeroContent() {
           газы крови, электролиты, метаболиты и показатели оксиметрии
         </p>
 
-        <button className={styles.contentBtn}>
-          <span>Подробнее</span>
-        </button>
+        <Button text="Подробнее" width="270px" />
       </div>
 
       <div>

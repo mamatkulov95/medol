@@ -46,5 +46,38 @@
     {
       "headerMenu": "ОБРАТНАЯ СВЯЗЬ"
     }
+  ],
+
+  "products": [
+    {
+      "productImg": "/images/product1-jarroh.svg",
+      "productImgAlt": "Эндоваскулярная хирургия",
+      "productName": "Эндоваскулярная хирургия"
+    },
+    {
+      "productImg": "/images/product2-labaratory.svg",
+      "productImgAlt": "Лабораторная диагностика",
+      "productName": "Лабораторная диагностика"
+    },
+    {
+      "productImg": "/images/product3-heart.svg",
+      "productImgAlt": "Кардиохирургия",
+      "productName": "Кардиохирургия"
+    },
+    {
+      "productImg": "/images/product4-diabet.svg",
+      "productImgAlt": "ДИАБЕТ",
+      "productName": "ДИАБЕТ"
+    },
+    {
+      "productImg": "/images/product5-endurologiya.svg",
+      "productImgAlt": "ЭНДОУРОЛОГИЯ",
+      "productName": "ЭНДОУРОЛОГИЯ"
+    },
+    {
+      "productImg": "/images/product6-armatolog.svg",
+      "productImgAlt": "АРИТМОЛОГИЯ",
+      "productName": "АРИТМОЛОГИЯ"
+    }
   ]
 }
