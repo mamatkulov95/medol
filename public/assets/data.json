@@ -100,5 +100,18 @@
       "serviceName": "УСЛУГИ ЛОГИСТИКИ",
       "serviceContent": "Компания предоставляет сервисное обслуживание по всем предоставляемым продуктам. У наших инженеров имеется опыт и сертификаты фирм производителей....."
     }
+  ],
+
+  "colorArrows": [
+    {
+      "arrContent": "Посмотреть все новости",
+      "arrowImg": "/images/arrow-color.svg",
+      "arrowAlt": "Arrow"
+    },
+    {
+      "arrContent": "Подписаться на новости",
+      "arrowImg": "/images/arrow-color.svg",
+      "arrowAlt": "Arrow"
+    }
   ]
 }
