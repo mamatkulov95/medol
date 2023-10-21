@@ -148,5 +148,53 @@
       "partnerImg": "/images/partner8.svg",
       "partnerImgAlt": "partner8"
     }
+  ],
+
+  "footerContact": [
+    {
+      "iconImg": "/images/location-icon.svg",
+      "imgDesc": "location-icon",
+      "addressLine1": "г.Ташкент, Чиланзар",
+      "addressLine2": "10 квартал, дом 3/1"
+    },
+    {
+      "iconImg": "/images/phone-icon.svg",
+      "imgDesc": "phone-icon",
+      "addressLine1": "+998 71 276-62-53",
+      "addressLine2": "+998 71 276-62-54"
+    },
+    {
+      "iconImg": "/images/mail-icon.svg",
+      "imgDesc": "mail-icon",
+      "addressLine1": "info@medol.uz"
+    }
+  ],
+
+  "footerNav": [
+    {
+      "mainNav": "О компании",
+      "subMenu1": "История",
+      "subMenu2": "Партнеры",
+      "subMenu3": "Вакансии",
+      "subMenu4": "История"
+    },
+    {
+      "mainNav": "Продукция",
+      "subMenu1": "Эндоваскулярная хирургия",
+      "subMenu2": "Аритмология",
+      "subMenu3": "Кардиохирургия",
+      "subMenu4": "Лабораторная диагностика",
+      "subMenu5": "Хирургия",
+      "subMenu6": "Эндоурология",
+      "subMenu7": "Нейрохирургия",
+      "subMenu8": "Анестезиология и реанимация",
+      "subMenu9": "Диабет"
+    },
+    {
+      "mainNav": "Услуги",
+      "subMenu1": "Сервис",
+      "subMenu2": "Регистрации",
+      "subMenu3": "Услуги логистики"
+    }
   ]
 }
