@@ -6,7 +6,6 @@ import data from "../../../public/assets/data.json";
 import leftArrow from "/public/images/left-arrow.svg";
 import rightArrow from "/public/images/right-arrow.svg";
 import newsImg from "/public/images/new1.svg";
-import colorArrow from "/public/images/arrow-color.svg";
 import Image from "next/image";
 import Button from "../Button/Button";
 

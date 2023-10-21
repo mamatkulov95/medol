@@ -113,5 +113,40 @@
       "arrowImg": "/images/arrow-color.svg",
       "arrowAlt": "Arrow"
     }
+  ],
+
+  "partners": [
+    {
+      "partnerImg": "/images/partner1.svg",
+      "partnerImgAlt": "partner1"
+    },
+    {
+      "partnerImg": "/images/partner2.svg",
+      "partnerImgAlt": "partner2"
+    },
+    {
+      "partnerImg": "/images/partner3.svg",
+      "partnerImgAlt": "partner3"
+    },
+    {
+      "partnerImg": "/images/partner4.svg",
+      "partnerImgAlt": "partner4"
+    },
+    {
+      "partnerImg": "/images/partner5.svg",
+      "partnerImgAlt": "partner5"
+    },
+    {
+      "partnerImg": "/images/partner6.svg",
+      "partnerImgAlt": "partner6"
+    },
+    {
+      "partnerImg": "/images/partner7.svg",
+      "partnerImgAlt": "partner7"
+    },
+    {
+      "partnerImg": "/images/partner8.svg",
+      "partnerImgAlt": "partner8"
+    }
   ]
 }
