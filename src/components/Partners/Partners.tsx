@@ -25,7 +25,7 @@ export default function Partners() {
           arrowImg={leftArrow}
         />
 
-        <div className="grid grid-cols-4 grid-rows-2 gap-6">
+        <div className="sm:grid grid-cols-1  md:grid-cols-2  lg:grid-cols-4 grid-rows-2 gap-6">
           {partners.map(({ partnerImg, partnerImgAlt }, index) => (
             <div key={index} className="border rounded-3xl px-[40px]">
               <Image

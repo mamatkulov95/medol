@@ -18,7 +18,7 @@ export default function HeroContent() {
         <Button text="Подробнее" width="270px" />
       </div>
 
-      <div>
+      <div className={styles.heroContentImg}>
         <Image src={product1} width={700} height={545} alt="product1" />
       </div>
     </div>

@@ -15,10 +15,19 @@ export default function Footer() {
     <div className={styles.hero}>
       <div className="flex gap-10">
         <div className="flex gap-10 flex-col">
-          <div className="flex gap-10">
+          <div className="sm:flex flex-col gap-10 ">
+            <div className="sm:block md:hidden lg:hidden">
+              <Image
+                src={compLogo}
+                width={200}
+                height={60}
+                alt="company-logo"
+              />
+            </div>
+
             <p className="text-[#595959] text-2xl font-medium">Контакты</p>
 
-            <div className="grid grid-cols-2 grid-rows-2 gap-6">
+            <div className="sm:grid grid-cols-1 gap-6 md:grid-cols-2  lg:grid-cols-2 grid-rows-2 ">
               {footerContact.map(
                 ({ iconImg, imgDesc, addressLine1, addressLine2 }, index) => (
                   <div key={index} className="flex gap-4">
@@ -46,8 +55,14 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-8 items-center">
-            <Image src={compLogo} width={200} height={60} alt="company-logo" />
-            <p className="w-[410px]">
+            <Image
+              className="sm:hidden md:block lg:block"
+              src={compLogo}
+              width={200}
+              height={60}
+              alt="company-logo"
+            />
+            <p className="sm:w-auto md:w-[410px]">
               Наша цель – построить прозрачный, долгосрочный бизнес, приносить
               огромную пользу населению, путем решения глобальных вопросов.
               Внедряя инновационные технологии на рынок Узбекистана.

@@ -29,35 +29,39 @@ export default function News() {
           arrowImg={leftArrow}
         />
 
-        {contentArray.map((item, index) => (
-          <div className="main-content px-4" key={index}>
-            <div>
-              <Image
-                className="rounded-3xl"
-                src={newsImg}
-                width={330}
-                height={250}
-                alt="news-img"
-              />
+        <div className="flex flex-wrap gap-8 justify-center">
+          {contentArray.map((item, index) => (
+            <div className="main-content px-4" key={index}>
+              <div>
+                <Image
+                  className="rounded-3xl"
+                  src={newsImg}
+                  width={330}
+                  height={250}
+                  alt="news-img"
+                />
 
-              <p className="w-[312px] text-[#0D4C93] text-[20px] py-4">
-                Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича
-              </p>
+                <p className="w-[312px] text-[#0D4C93] text-[20px] py-4">
+                  Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича
+                </p>
 
-              <p className="w-[312px] text-[#0D4C93] text-[18px]">26.07.2021</p>
+                <p className="w-[312px] text-[#0D4C93] text-[18px]">
+                  26.07.2021
+                </p>
 
-              <p className="w-[312px] py-4">
-                С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский
-                Специализированный Научно-Практический Медицинский Центр
-                Урологии) при поддержке компаний Ethicon Endo Surgery
-                (Johnson&Johnson) и ИП ООО «Medical Online Services» был
-                проведен мастер-класс в исполнении...
-              </p>
+                <p className="w-[312px] py-4">
+                  С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский
+                  Специализированный Научно-Практический Медицинский Центр
+                  Урологии) при поддержке компаний Ethicon Endo Surgery
+                  (Johnson&Johnson) и ИП ООО «Medical Online Services» был
+                  проведен мастер-класс в исполнении...
+                </p>
 
-              <Button text="Подробнее" width="270px" />
+                <Button text="Подробнее" width="270px" />
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
 
         <Arrow
           padding="15"
@@ -70,7 +74,7 @@ export default function News() {
         />
       </div>
 
-      <div className="flex gap-10">
+      <div className="sm:hidden lg:flex gap-10">
         {colorArrows.map(({ arrContent, arrowImg, arrowAlt }, index) => (
           <div
             className="flex px-2 items-center gap-4 justify-center"

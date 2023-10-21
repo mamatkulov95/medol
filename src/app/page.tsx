@@ -5,7 +5,6 @@ import Company from "@/components/AboutCompany/Company";
 
 import "./globals.css";
 import News from "@/components/News/News";
-import LeftArrow from "@/components/Arrow/Arrow";
 import Partners from "@/components/Partners/Partners";
 import Footer from "@/components/Footer/Footer";
 
