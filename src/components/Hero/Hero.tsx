@@ -108,7 +108,9 @@ export default function Hero() {
           ))}
         </div>
       </div>
-      <HeroContent />
+      <div>
+        <HeroContent />
+      </div>
     </div>
   );
 }

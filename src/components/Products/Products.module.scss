@@ -2,8 +2,9 @@
   display: flex;
   text-align: center;
   flex-direction: column;
+  justify-content: center;
   gap: 60px;
-  width: 1145px;
+  max-width: 1145px;
   margin: auto;
   padding: 50px 0;
 
