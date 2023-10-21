@@ -7,6 +7,7 @@ import "./globals.css";
 import News from "@/components/News/News";
 import LeftArrow from "@/components/Arrow/Arrow";
 import Partners from "@/components/Partners/Partners";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Company />
       <News />
       <Partners />
+      <Footer />
     </div>
   );
 }
