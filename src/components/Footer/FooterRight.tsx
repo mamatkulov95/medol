@@ -22,17 +22,70 @@ export default function FooterRight() {
             },
             index
           ) => (
-            <div className="flex flex-col gap-3 text-[#595959]" key={index}>
-              <p className=" text-2xl font-medium">{mainNav}</p>
-              <p className="text-sm font-[300]">{subMenu1}</p>
-              <p className="text-sm font-[300]">{subMenu2}</p>
-              <p className="text-sm font-[300]">{subMenu3}</p>
-              <p className="text-sm font-[300]">{subMenu4}</p>
-              <p className="text-sm font-[300]">{subMenu5}</p>
-              <p className="text-sm font-[300]">{subMenu6}</p>
-              <p className="text-sm font-[300]">{subMenu7}</p>
-              <p className="text-sm font-[300]">{subMenu8}</p>
-              <p className="text-sm font-[300]">{subMenu9}</p>
+            <div
+              className="flex flex-col gap-3 text-[#595959] cursor-pointer"
+              key={index}
+            >
+              <a
+                href=""
+                className=" text-2xl font-medium  hover:text-blue-700 transform"
+              >
+                {mainNav}
+              </a>
+              <a
+                href=""
+                className="text-sm font-[300]  hover:text-blue-700 transform"
+              >
+                {subMenu1}
+              </a>
+              <a
+                href=""
+                className="text-sm font-[300]  hover:text-blue-700 transform"
+              >
+                {subMenu2}
+              </a>
+              <a
+                href=""
+                className="text-sm font-[300]  hover:text-blue-700 transform"
+              >
+                {subMenu3}
+              </a>
+              <a
+                href=""
+                className="text-sm font-[300]  hover:text-blue-700 transform"
+              >
+                {subMenu4}
+              </a>
+              <a
+                href=""
+                className="text-sm font-[300]  hover:text-blue-700 transform"
+              >
+                {subMenu5}
+              </a>
+              <a
+                href=""
+                className="text-sm font-[300]  hover:text-blue-700 transform"
+              >
+                {subMenu6}
+              </a>
+              <a
+                href=""
+                className="text-sm font-[300]  hover:text-blue-700 transform"
+              >
+                {subMenu7}
+              </a>
+              <a
+                href=""
+                className="text-sm font-[300]  hover:text-blue-700 transform"
+              >
+                {subMenu8}
+              </a>
+              <a
+                href=""
+                className="text-sm font-[300]  hover:text-blue-700 transform"
+              >
+                {subMenu9}
+              </a>
             </div>
           )
         )}

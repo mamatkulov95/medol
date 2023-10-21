@@ -29,22 +29,28 @@
 
   "headerMenus": [
     {
-      "headerMenu": "МАГАЗИН"
+      "headerMenu": "МАГАЗИН",
+      "section": "magazine"
     },
     {
-      "headerMenu": "О КОМПАНИИ"
+      "headerMenu": "О КОМПАНИИ",
+      "section": "aboutCompany"
     },
     {
-      "headerMenu": "ПРОДУКЦИЯ"
+      "headerMenu": "ПРОДУКЦИЯ",
+      "section": "products"
     },
     {
-      "headerMenu": "УСЛУГИ"
+      "headerMenu": "УСЛУГИ",
+      "section": "services"
     },
     {
-      "headerMenu": "АКЦИИ И НОВОСТИ"
+      "headerMenu": "АКЦИИ И НОВОСТИ",
+      "section": "news"
     },
     {
-      "headerMenu": "ОБРАТНАЯ СВЯЗЬ"
+      "headerMenu": "ОБРАТНАЯ СВЯЗЬ",
+      "section": "contactMe"
     }
   ],
 
@@ -195,6 +201,24 @@
       "subMenu1": "Сервис",
       "subMenu2": "Регистрации",
       "subMenu3": "Услуги логистики"
+    }
+  ],
+
+  "heroSlider": [
+    {
+      "productName": "Анализатор ABL800 FLEX",
+      "productDesc": "Ориентированный на среднюю или высокую производительность тестов, анализатор ABL800 FLEX измеряет полный набор параметров, включая pH, газы крови, электролиты, метаболиты и показатели оксиметрии",
+      "productImg": "/images/product1.svg"
+    },
+    {
+      "productName": "Аппарат ИК-лазерный МАКДЭЛ-09.1",
+      "productDesc": "Ориентированный на среднюю или высокую производительность тестов, анализатор ABL800 FLEX измеряет полный набор параметров, включая pH, газы крови, электролиты, метаболиты и показатели оксиметрии",
+      "productImg": "/images/product2.svg"
+    },
+    {
+      "productName": "Глюкометр для измерения глюкозы",
+      "productDesc": "Ориентированный на среднюю или высокую производительность тестов, анализатор ABL800 FLEX измеряет полный набор параметров, включая pH, газы крови, электролиты, метаболиты и показатели оксиметрии",
+      "productImg": "/images/product3.svg"
     }
   ]
 }

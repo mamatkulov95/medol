@@ -15,7 +15,10 @@ export default function News() {
   const { colorArrows } = data;
 
   return (
-    <div className="flex flex-col gap-10 justify-center items-center p-8">
+    <div
+      id="news"
+      className="flex flex-col gap-10 justify-center items-center p-8"
+    >
       <Title text="НОВОСТИ" fontSize="40px" fontWeight="500" />
 
       <div className="flex text-center justify-center items-center">
@@ -77,7 +80,7 @@ export default function News() {
       <div className="sm:hidden lg:flex gap-10">
         {colorArrows.map(({ arrContent, arrowImg, arrowAlt }, index) => (
           <div
-            className="flex px-2 items-center gap-4 justify-center"
+            className="flex px-2 items-center gap-4 justify-center cursor-pointer"
             key={index}
           >
             <Title text={arrContent} fontSize="24px" fontWeight="400" />

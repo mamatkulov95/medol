@@ -7,7 +7,10 @@ import Button from "../Button/Button";
 
 export default function Company() {
   return (
-    <div className="lg:flex flex-col gap-2 py-10 px-10 md:justify-center justify-center h-full">
+    <div
+      id="aboutCompany"
+      className="lg:flex flex-col gap-2 py-10 px-10 md:justify-center justify-center h-full"
+    >
       <div className="flex justify-center p-4">
         <Title text="О КОМПАНИИ" fontSize="40px" fontWeight="400" />
       </div>

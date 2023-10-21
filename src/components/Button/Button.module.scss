@@ -4,9 +4,22 @@
   opacity: 0.9;
   background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
 
+  .button:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+    border: 1px solid rgb(91, 207, 96);
+    background: linear-gradient(90deg, #356dae 0%, #4d8a8a 100%);
+
+    cursor: pointer;
+  }
   span {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+  }
+
+  span:hover {
+    color: yellowgreen;
+    transition: ease-in;
   }
 }

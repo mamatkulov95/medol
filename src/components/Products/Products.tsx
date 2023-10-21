@@ -11,7 +11,7 @@ export default function Products() {
   const { products } = data;
 
   return (
-    <div className={styles.products}>
+    <div id="products" className={styles.products}>
       <Title text="ПРОДУКЦИЯ" fontSize="40px" fontWeight="500" />
       <div className={styles.productsList}>
         {products.map(({ productImg, productImgAlt, productName }, index) => (

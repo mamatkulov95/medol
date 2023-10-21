@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Link } from "react-scroll";
 import Image from "next/image";
 
 import HeroContent from "../HeroContent/HeroContent";
@@ -26,13 +27,15 @@ export default function Hero() {
   return (
     <div className={styles.hero}>
       <div className={styles.header}>
-        <Image
-          className={styles.compLogo1}
-          src={compLogo}
-          width={200}
-          height={50}
-          alt="company-logo"
-        />
+        <a href="https://www.orzugrand.uz/">
+          <Image
+            className={styles.compLogo1}
+            src={compLogo}
+            width={200}
+            height={50}
+            alt="company-logo"
+          />
+        </a>
 
         {leftNavMenus.map(
           ({ iconImg, imgDesc, addressLine1, addressLine2 }, index) => (
@@ -51,13 +54,15 @@ export default function Hero() {
           )
         )}
 
-        <Image
-          className={styles.compLogo}
-          src={compLogo}
-          width={200}
-          height={50}
-          alt="company-logo"
-        />
+        <a href="https://www.orzugrand.uz/">
+          <Image
+            className={styles.compLogo}
+            src={compLogo}
+            width={200}
+            height={50}
+            alt="company-logo"
+          />
+        </a>
 
         <div className={styles.rightNav}>
           <div className={styles.leftwrapper}>
@@ -87,7 +92,11 @@ export default function Hero() {
               alt="Fc-logo"
             />
 
-            <select value={selectedLanguage} onChange={handleLanguageChange}>
+            <select
+              className="cursor-pointer"
+              value={selectedLanguage}
+              onChange={handleLanguageChange}
+            >
               <option value="0">Русский</option>
               <option value="1">Uzbek</option>
             </select>
@@ -101,9 +110,18 @@ export default function Hero() {
 
       <div className={styles.headerWrapper}>
         <div className={styles.headerMenu}>
-          {headerMenus.map(({ headerMenu }, index) => (
+          {headerMenus.map(({ headerMenu, section }, index) => (
             <ul key={index} className={styles.headerItems}>
-              <li className={styles.headerItem}>{headerMenu}</li>
+              <Link
+                to={section}
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={1500}
+                className={styles.headerItem}
+              >
+                {headerMenu}
+              </Link>
             </ul>
           ))}
         </div>

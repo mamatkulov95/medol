@@ -12,17 +12,19 @@ export default function Footer() {
   const { footerContact } = data;
 
   return (
-    <div className={styles.hero}>
+    <div id="contactMe" className={styles.hero}>
       <div className="flex gap-10">
         <div className="flex gap-10 flex-col">
           <div className="sm:flex flex-col gap-10 ">
             <div className="sm:block md:hidden lg:hidden">
-              <Image
-                src={compLogo}
-                width={200}
-                height={60}
-                alt="company-logo"
-              />
+              <a href="https://www.orzugrand.uz/">
+                <Image
+                  src={compLogo}
+                  width={200}
+                  height={60}
+                  alt="company-logo"
+                />
+              </a>
             </div>
 
             <p className="text-[#595959] text-2xl font-medium">Контакты</p>
@@ -31,7 +33,7 @@ export default function Footer() {
               {footerContact.map(
                 ({ iconImg, imgDesc, addressLine1, addressLine2 }, index) => (
                   <div key={index} className="flex gap-4">
-                    <div className="flex justify-center items-center bg-white rounded-full p-4">
+                    <div className="flex cursor-pointer transform transition-all justify-center items-center bg-white rounded-full p-4">
                       <Image
                         src={iconImg}
                         width={25}
@@ -55,13 +57,16 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-8 items-center">
-            <Image
-              className="sm:hidden md:block lg:block"
-              src={compLogo}
-              width={200}
-              height={60}
-              alt="company-logo"
-            />
+            <a href="https://www.orzugrand.uz/">
+              <Image
+                className="sm:hidden md:block lg:block"
+                src={compLogo}
+                width={200}
+                height={60}
+                alt="company-logo"
+              />
+            </a>
+
             <p className="sm:w-auto md:w-[410px] lg:w-[410px]">
               Наша цель – построить прозрачный, долгосрочный бизнес, приносить
               огромную пользу населению, путем решения глобальных вопросов.
