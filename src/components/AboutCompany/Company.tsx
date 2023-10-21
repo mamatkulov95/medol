@@ -7,14 +7,22 @@ import Button from "../Button/Button";
 
 export default function Company() {
   return (
-    <div className="flex justify-center items-center flex-col gap-2 py-10">
-      <Title text="О КОМПАНИИ" fontSize="40px" fontWeight="400" />
+    <div className="lg:flex flex-col gap-2 py-10 px-10 md:justify-center justify-center h-full">
+      <div className="flex justify-center p-4">
+        <Title text="О КОМПАНИИ" fontSize="40px" fontWeight="400" />
+      </div>
 
       <div className="flex justify-center items-center">
-        <Image src={circle} width={550} height={550} alt="circle-logo" />
+        <Image
+          className="sm:hidden md:hidden lg:block"
+          src={circle}
+          width={550}
+          height={550}
+          alt="circle-logo"
+        />
 
-        <div className="flex flex-col gap-4 justify-center items-start pl-2 bg-gradient rounded-custom  h-[460px]">
-          <p className=" w-[700px] leading-10">
+        <div className="flex flex-col gap-4 justify-center items-start p-4 bg-gradient rounded-custom  h-full lg:h-[460px] ">
+          <p className="max-w-[700px] leading-10 py-4">
             Группа компаний MEDOL создавалась высококвалифицированными
             специалистами в сфере медицины, инженерии и экономики, за плечами
             которых значительный опыт на рынке высоких медицинских технологий,
@@ -25,7 +33,9 @@ export default function Company() {
             технологий в систему здравоохранения Республики Узбекистан.
           </p>
 
-          <Button text="Узнать больше" width="270px" />
+          <div className="sm:self-center md:self-center lg:self-start">
+            <Button text="Узнать больше" width="270px" />
+          </div>
         </div>
       </div>
     </div>

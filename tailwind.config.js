@@ -18,6 +18,12 @@ module.exports = {
         gradient:
           "linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0.00) 100%)",
         bgImage: "url('/public/hero-bg.svg')"
+      },
+
+      screens: {
+        sm: "340px",
+        md: "768px",
+        lg: "1340px"
       }
     }
   },

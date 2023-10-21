@@ -4,7 +4,7 @@ export default function FooterRight() {
   const { footerNav } = data;
 
   return (
-    <div>
+    <div className="sm:hidden md:hidden lg:block">
       <div className="flex gap-4">
         {footerNav.map(
           (
@@ -38,7 +38,7 @@ export default function FooterRight() {
         )}
       </div>
 
-      <div className="text-end pt-10">
+      <div className="text-end pt-24">
         <p>Сайт разработан компанией www.uz</p>
       </div>
     </div>
